@@ -1,0 +1,61 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Track my order",
+        "Order status",
+        "Has my order shipped?"
+      ],
+      "responses": [
+        "Please give me your order ID, I’ll check the status for you.",
+        "Kindly share your order number so I can track it.",
+        "Certainly, do you have your order number?"
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy?",
+        "Can I return the product?",
+        "Refund policy",
+        "How to get refund?"
+      ],
+      "responses": [
+        "Our return policy allows returns up to 30 days after delivery.",
+        "Yes, you can return within 30 days in original condition.",
+        "Refund takes 3‑5 business days after we receive the product."
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Bye! Have a great day.",
+        "Goodbye! If you need any help, I’m here.",
+        "See you later!"
+      ]
+    }
+  ]
+}
